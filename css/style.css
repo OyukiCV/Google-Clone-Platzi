@@ -19,7 +19,7 @@ header nav{
     justify-content: flex-end;
 }
 header nav .nav-right-section{
-    width: 250px;
+    width: 230px;
     height: auto;
     display: flex;
     list-style: none;
@@ -27,7 +27,7 @@ header nav .nav-right-section{
     align-items: center;
 }
 nav .nav-right-section a{
-    margin-right: 10px;
+    margin-right: 18px;
     color: #000;
 }
 nav .nav-right-section .menu-icon{
@@ -37,13 +37,14 @@ nav .nav-right-section .menu-icon{
     background-size: contain;
     width: 25px;
     height: 25px;
+   
 }
 nav .nav-right-section img{
     border-radius: 50%;
     margin-left: 10px;
 }
 main{
-    margin-top: 150px;
+    margin-top: 200px;
     text-align: center;
 }
 main .main-logo{
@@ -58,7 +59,7 @@ main .main-logo img{
 main .main-input{
     width: 530px;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 18px;
 }
 main .main-input-container{
     width: 525px;
@@ -85,9 +86,10 @@ main .main-input .search-icon{
     background-size: contain;
     width: 18px;
     height: 18px;
+    color: #9aa0a6;
 } 
 main .main-input .micro-icon{
-    background-image: url("/assets/micro-google.png");
+    background-image: url("/assets/micro.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -121,6 +123,7 @@ footer{
    width: 100%;
    height: 50px;
    position: absolute;
+   bottom: 0;
 background-color: #f2f2f2;
 display: grid;
 grid-template-columns: 1fr 1fr;
