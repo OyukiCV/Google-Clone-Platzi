@@ -36,7 +36,7 @@ nav .nav-right-section a {
 }
 
 nav .nav-right-section .menu-icon {
-    background-image: url("/assets/apps_black_24dp.svg");
+    background-image: url("../assets/apps_black_24dp.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
